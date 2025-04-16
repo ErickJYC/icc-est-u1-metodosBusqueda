@@ -1,6 +1,7 @@
 package Principal;
 
 import controles.MetodoBusqueda;
+import controles.MetodoBusquedaBinaria;
 import models.Person;
 
 import java.util.Scanner;
@@ -18,6 +19,10 @@ public class App {
         personas[6] = new Person("Pedro",107);
 
         MetodoBusqueda metodoBusqueda = new MetodoBusqueda(personas);
-    }
+        MetodoBusquedaBinaria metodoBusquedaBinaria = new MetodoBusquedaBinaria(personas);
 
+
+        metodoBusquedaBinaria.showPersonCode();
+
+    }
 }

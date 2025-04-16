@@ -1,5 +1,8 @@
 package views;
 
+import controles.MetodoBusquedaBinaria;
+import models.Person;
+
 import java.util.Scanner;
 
 public class ShowConsole {
@@ -16,4 +19,5 @@ public class ShowConsole {
     public void showMes(String messege){
         System.out.println(messege);
     }
+
 }
